@@ -1,0 +1,183 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Crimson Pro";
+  src: url("./Crimson_Pro/CrimsonPro-VariableFont_wght.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Crimson Pro";
+  src: url("./Crimson_Pro/CrimsonPro-Italic-VariableFont_wght.ttf")
+    format("truetype");
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Outfit";
+  src: url("./Outfit/Outfit-VariableFont_wght.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Fira Code";
+  src: url("./Fira_Code/FiraCode-VariableFont_wght.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Covered By Your Grace";
+  src: url("./Covered_By_Your_Grace/CoveredByYourGrace-Regular.ttf")
+    format("truetype");
+  font-display: swap;
+}
+
+:root {
+  @apply font-sans
+    text-lg
+    lg:text-xl
+    antialiased
+    tracking-normal
+    scroll-smooth;
+}
+
+body {
+  @apply min-h-screen
+    flex
+    flex-col
+    items-center
+    p-6
+    text-neutral-900 dark:text-neutral-200
+    bg-neutral-100 dark:bg-neutral-900;
+}
+
+hr {
+  @apply border-neutral-900 dark:border-neutral-200
+    my-6
+    opacity-20;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-serif
+    capitalize;
+}
+
+h1 {
+  @apply text-4xl my-7;
+}
+
+h2 {
+  @apply text-3xl my-6;
+}
+
+h3 {
+  @apply text-2xl my-4;
+}
+
+h4,
+h5,
+h6 {
+  @apply text-xl my-3;
+}
+
+p {
+  @apply my-4 lg:my-6;
+}
+
+sm {
+  @apply text-xs;
+}
+
+li {
+  @apply ml-4 my-2 list-disc;
+}
+
+ol li {
+  @apply list-decimal;
+}
+
+blockquote {
+  @apply font-sans text-sm border-l-4 border-neutral-400
+    py-0.5 pl-4 my-4
+    dark:text-neutral-200
+    italic;
+}
+
+a {
+  @apply underline
+    text-mariner-600 hover:text-mariner-900
+    dark:text-mariner-500 dark:hover:text-mariner-400;
+}
+
+img {
+  @apply mx-auto
+    my-4
+    max-w-full
+    h-auto
+    rounded-sm;
+}
+
+code {
+  @apply text-xs
+    bg-neutral-800 bg-opacity-10
+    dark:bg-neutral-800
+    py-0.5
+    px-1
+    rounded-sm;
+}
+
+pre code {
+  @apply p-4
+    whitespace-pre-wrap
+    block;
+}
+
+/* Button styling messes up dark/light button */
+button {
+  all: unset;
+  cursor: pointer;
+}
+
+.button {
+  @apply text-center
+    transition-all
+    p-1.5
+    px-5
+    no-underline
+    rounded-sm
+    shadow-lg
+    hover:shadow-sm
+    font-sans
+    font-semibold
+    text-white
+    hover:text-white
+    bg-mariner-600
+    hover:bg-mariner-800 hover:dark:bg-mariner-500;
+}
+
+.quote-content {
+  @apply font-sans text-center text-neutral-700 dark:text-neutral-300 text-lg;
+}
+
+.quote-giver {
+  @apply m-0 mb-2 p-0 font-bold font-sans;
+}
+
+.quote-giver-job {
+  @apply m-0 p-0 text-neutral-500 dark:text-neutral-400 font-sans text-xs text-center italic;
+}
+
+.footnote-trigger {
+  @apply cursor-pointer
+  underline
+  decoration-2
+  hover:text-neutral-700 dark:hover:text-neutral-400;
+}
