@@ -34,7 +34,7 @@
 </head>
 
 <body>
-  <div class="container flex flex-col items-center mx-auto">
+  <div class="container flex flex-col items-center mx-auto px-6 lg:px-8">
 
     <section>
       <h1><span id="typeit"></span></h1>
@@ -42,31 +42,30 @@
 
     <section class="container mx-auto my-12">
       <div class="flex flex-col lg:flex-row justify-between items-center">
-        <div class="w-full lg:w-1/3 p-4 mb-8 lg:mb-0">
+        <!-- Quote 1 -->
+        <div class="w-8/12 lg:w-1/3 p-4 mb-8 lg:mb-0">
           <div class="flex flex-col items-center">
             <div class="text-3xl">
               <span class="text-yellow-500">★★★★★</span>
             </div>
             <p class="quote-content">
-              “Essential reading for anyone who wants to use AI in their lives. If you're looking for a
-              short read that will get you from zero to pro, this is it.”
+              “This is the most accessible introduction to LLMs that I've ever read. Knowing how to use
+              AI will improve your life, and I don't know of a better place to start than this book.”
             </p>
             <div class="flex flex-col items-center text-sm">
               <p class="quote-giver">John Carpenter</p>
-              <p class="quote-giver-job">Staff
-                Software
-                Realiability Engineer,
-                Google
-              </p>
+              <p class="quote-giver-job">Staff Site Reliability Engineer, Google</p>
             </div>
           </div>
         </div>
 
+        <!-- Book Cover -->
         <div class="w-9/12 lg:w-1/3 order-first lg:order-none mb-8 lg:mb-0 max-w-80">
           <img src="assets/book-cover.png" alt="AI For Everyone Book Cover" class="animate-float" />
         </div>
 
-        <div class="w-full lg:w-1/3 p-4">
+        <!-- Quote 2 -->
+        <div class="w-8/12 lg:w-1/3 p-4">
           <div class="flex flex-col items-center">
             <div class="text-3xl">
               <span class="text-yellow-500">★★★★★</span>
@@ -77,9 +76,7 @@
             </p>
             <div class="flex flex-col items-center font-sans text-sm">
               <p class="quote-giver">Michalis Rousos, MD</p>
-              <p class="quote-giver-job">Anesthesiologist,
-                Pilot, Father of 2
-              </p>
+              <p class="quote-giver-job">Anesthesiologist, Pilot, Father of 2</p>
             </div>
           </div>
         </div>
@@ -102,23 +99,25 @@
 
     <section class="max-w-screen-xl">
       <section class="font-sans max-w-screen-md text-center mx-auto mb-10">
-        <p>
-          I wrote this handbook to help you explore the exciting world of artificial intelligence, regardless of your
-          tech background. My goal is to make you feel confident and excited about AI, instead of confused or left
-          behind. This easy-to-read guide breaks down complex concepts into simple, everyday language.
-        </p>
-        <p>
-          <strong>It's <span id="free" class="footnote-trigger">free</span></strong>,
-          so go ahead and take a look. And if you find it useful, share it with your friends. The more people understand
-          Al, the better!
-        </p>
+        <div class="mx-auto w-9/12">
+          <p>
+            I wrote this handbook to help you explore the exciting world of artificial intelligence, regardless of your
+            tech background. My goal is to make you feel confident and excited about AI, instead of confused or left
+            behind. This easy-to-read guide breaks down complex concepts into simple, everyday language.
+          </p>
+          <p>
+            <strong>It's <span id="free" class="footnote-trigger">free</span></strong>,
+            so go ahead and take a look. And if you find it useful, share it with your friends. The more people
+            understand Al, the better!
+          </p>
+        </div>
         <div id="free-footnote" class="hidden fixed inset-0 flex items-center justify-center bg-black/50">
           <span class="bg-neutral-100 dark:bg-neutral-800 p-6 max-w-md rounded-md shadow-lg text-left">
             Yes, the book is <em>actually</em> free.<br><br>You don't need to put your email anywhere to
             get access to it, and you can share it with anyone you want.
             <br><br>In fact, it's released under a <a href="https://creativecommons.org/licenses/by/4.0/"
-              target="_blank" rel="noopener noreferrer">CC BY licencse</a>, which allows anyone
-            to distribute, remix, adpapt, and build upon the book in any medium or
+              target="_blank" rel="noopener noreferrer">CC BY license</a>, which allows anyone
+            to distribute, remix, adapt, and build upon the book in any medium or
             format, so long as attribution is given to the author.
           </span>
         </div>
@@ -126,16 +125,16 @@
 
       <section>
         <h2>10 things you will learn from this book</h2>
-        <div class="flex flex-col lg:flex-row justify-between w-full lg:items-center">
-          <ol>
+        <div class="flex flex-col lg:flex-row justify-between w-full lg:space-x-12 max-w-4xl mx-auto">
+          <ol class="space-y-4 lg:w-1/2">
             <li>How AI works, minus the jargon and corporate-speak</li>
             <li>Use AI for everyday tasks, even with zero coding skills</li>
             <li>Talk to AI so it does exactly what you want</li>
             <li>Upgrade your creativity and write effortlessly</li>
             <li>Delegate to AI and free up time for run and family</li>
           </ol>
-          <ol start="6" class="">
-            <li class="first-of-type:mt-0">Create AI assistants to help you with anything you want</li>
+          <ol start="6" class="space-y-4 lg:w-1/2 mt-4 lg:mt-0">
+            <li>Create AI assistants to help you with anything you want</li>
             <li>Get expert advice from AI-powered mentors and coaches</li>
             <li>Choose the best AI for your needs</li>
             <li>Access powerful AI without expensive subscriptions</li>
@@ -144,7 +143,7 @@
         </div>
       </section>
 
-      <secion>
+      <section>
         <h2>Who is this for?</h2>
         <p>Whether you're a curious teenager, a busy professional, or a retiree eager to keep up with technology, this
           is a handbook for you. The only requirement is wanting to learn more about Al, and access to the Internet.
@@ -152,14 +151,14 @@
             No prior tech knowledge required.
           </strong>
         </p>
-      </secion>
+      </section>
 
       <section>
         <h2>Who made this?</h2>
         <p>I'm Aristotelis Economides. While I originally studied engineering, I now work as a Software Engineer at
-          Google, where I build tooling for Al research and help accelerate our Al infrastructure. The past 3 years I've
-          worked extensively with AI from all sides: as a machine learning researcher, an engineer building tools for
-          researchers, a webapp developer, and an end user.</p>
+          Google, where I build tooling for AI research and help accelerate our AI infrastructure. I've spent the last 3
+          years working with AI from all angles: as a researcher, an engineer building tools for researchers, and as an
+          everyday user trying to make AI actually useful.</p>
       </section>
 
       <section class="mt-16 font-handwritten text-2xl text-center leading-normal">

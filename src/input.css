@@ -159,6 +159,8 @@ button {
     font-semibold
     text-white
     hover:text-white
+    dark:text-white
+    hover:dark:text-white
     bg-mariner-600
     hover:bg-mariner-800 hover:dark:bg-mariner-500;
 }
