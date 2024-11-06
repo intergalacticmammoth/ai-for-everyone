@@ -146,8 +146,6 @@ button {
     px-5
     no-underline
     rounded-sm
-    shadow-lg
-    hover:shadow-sm
     font-sans
     font-semibold
     text-white

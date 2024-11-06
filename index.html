@@ -41,6 +41,8 @@
       window.matchMedia('(prefers-color-scheme: dark)').matches
     );
   </script>
+  <script defer src="https://umami.aristot.io/script.js"
+    data-website-id="04527105-14cb-4605-a194-01595de09c4b"></script>
 </head>
 
 <body>
@@ -100,16 +102,19 @@
 
     <section class="text-center mt-0">
       <div class="flex flex-col md:flex-row items-center justify-center space-y-4 md:space-y-0 md:space-x-4">
-        <a class="button inline-flex items-center justify-center" href="" target="_blank">
+        <a class="button inline-flex items-center justify-center" href="" target="_blank"
+          data-umami-event="PDF download">
           PDF download
           <img src="src/download-icn.svg" alt="Download Icon" width="20" height="20" class="m-0 ml-2 w-5 h-5">
         </a>
-        <a class="button inline-flex items-center justify-center" href="" target="_blank">
+        <a class="button inline-flex items-center justify-center" href="" target="_blank"
+          data-umami-event="EPUB download">
           EPUB download
           <img src="src/download-icn.svg" alt="Download Icon" width="20" height="20" class="m-0 ml-2 w-5 h-5">
         </a>
       </div>
-      <p class="text-sm"><a href="" target="_blank" rel="noopener">Older versions</a></p>
+      <p class="text-sm"><a href="" target="_blank" rel="noopener" data-umami-event="Older versions">Older versions</a>
+      </p>
     </section>
 
     <section class="max-w-screen-xl">
@@ -121,7 +126,7 @@
             behind. This easy-to-read guide breaks down complex concepts into simple, everyday language.
           </p>
           <p>
-            <strong>It's <span id="free" class="footnote-trigger">free</span></strong>,
+            <strong>It's <span id="free" class="footnote-trigger" data-umami-event="Free footnote">free</span></strong>,
             so go ahead and take a look. And if you find it useful, share it with your friends. The more people
             understand Al, the better!
           </p>
@@ -178,15 +183,19 @@
 
       <section class="mt-16 font-handwritten text-2xl text-center leading-normal">
         <p><strong>P.S.:</strong> I’d love to hear your thoughts after reading.<br>
-          Connect with me on <a href="https://x.com/aristot_3rd" target="_blank" rel="noopener">@aristot_3rd</a> or
-          through my <a href="https://newsletter.aristot.io" target="_blank" rel="noopener">newsletter</a>.</p>
+          Connect with me on <a href="https://x.com/aristot_3rd" target="_blank" rel="noopener"
+            data-umami-event="PS @aristot_3rd">@aristot_3rd</a> or
+          through my <a href="https://newsletter.aristot.io" target="_blank" rel="noopener"
+            data-umami-event="PS newsletter">newsletter</a>.</p>
       </section>
     </section>
 
     <footer
       class="flex w-full justify-center items-center mt-8 text-sm font-extralight text-neutral-500 dark:text-neutral-400">
-      <p>Copyright 2024 © <a href="https://aristot.io" target="_blank" rel="noopener">Aristotelis Economides</a>. Source
-        on <a href="https://github.com/intergalacticmammoth/ai-for-everyone" target="_blank" rel="noopener">GitHub</a>.
+      <p>Copyright 2024 © <a href="https://aristot.io" target="_blank" rel="noopener"
+          data-umami-event="Footer aristot.io">Aristotelis Economides</a>. Source
+        on <a href="https://github.com/intergalacticmammoth/ai-for-everyone" target="_blank" rel="noopener"
+          data-umami-event="Footer GitHub">GitHub</a>.
       </p>
     </footer>
   </div>
