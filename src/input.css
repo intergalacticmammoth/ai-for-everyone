@@ -93,6 +93,10 @@ p {
   @apply my-4 lg:my-6;
 }
 
+strong {
+  @apply font-semibold;
+}
+
 sm {
   @apply text-xs;
 }
@@ -162,7 +166,7 @@ button {
 }
 
 .quote-giver {
-  @apply m-0 mb-2 p-0 font-bold font-sans;
+  @apply m-0 mb-2 p-0 font-semibold font-sans;
 }
 
 .quote-giver-job {

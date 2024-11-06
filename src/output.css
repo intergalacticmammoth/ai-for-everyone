@@ -727,14 +727,14 @@ video {
   line-height: 1.25rem;
 }
 
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .font-extralight {
@@ -908,6 +908,10 @@ p {
   }
 }
 
+strong {
+  font-weight: 600;
+}
+
 sm {
   font-size: 0.75rem;
   line-height: 1rem;
@@ -1050,7 +1054,7 @@ button {
   margin-bottom: 0.5rem;
   padding: 0px;
   font-family: Outfit, Open Sans, open sans, ui-sans-serif, sans-serif;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .quote-giver-job {
