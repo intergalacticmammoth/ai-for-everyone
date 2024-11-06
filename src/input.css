@@ -104,13 +104,6 @@ ol li {
   @apply list-decimal;
 }
 
-blockquote {
-  @apply font-sans text-sm border-l-4 border-neutral-400
-    py-0.5 pl-4 my-4
-    dark:text-neutral-200
-    italic;
-}
-
 a {
   @apply underline
     text-mariner-600 hover:text-mariner-900
@@ -166,7 +159,7 @@ button {
 }
 
 .quote-content {
-  @apply font-sans text-center text-neutral-700 dark:text-neutral-300 text-lg;
+  @apply my-4 lg:my-6 font-sans text-center text-neutral-700 dark:text-neutral-300 text-lg;
 }
 
 .quote-giver {
