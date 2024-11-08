@@ -43,6 +43,9 @@ module.exports = {
       },
       animation: {
         float: "float 3s ease-in-out infinite",
+      },
+      textDecorationThickness: {
+        3: "3px",
       }
     },
   },
