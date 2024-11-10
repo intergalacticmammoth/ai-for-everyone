@@ -614,10 +614,6 @@ video {
   display: inline-flex;
 }
 
-.hidden {
-  display: none;
-}
-
 .h-5 {
   height: 1.25rem;
 }
@@ -779,10 +775,6 @@ video {
   font-weight: 600;
 }
 
-.font-medium {
-  font-weight: 500;
-}
-
 .font-light {
   font-weight: 300;
 }
@@ -822,8 +814,8 @@ video {
   text-decoration-color: #67e8f9;
 }
 
-.decoration-pink-400 {
-  text-decoration-color: #f472b6;
+.decoration-pink-300 {
+  text-decoration-color: #f9a8d4;
 }
 
 .decoration-3 {
@@ -1159,6 +1151,28 @@ button {
 .dark .footnote-trigger:hover {
   --tw-text-opacity: 1;
   color: rgb(163 163 163 / var(--tw-text-opacity));
+}
+
+ol.learn-list:first-of-type {
+  counter-reset: lessons-counter;
+}
+
+ol.learn-list li {
+  list-style-type: none;
+}
+
+ol.learn-list li::before {
+  counter-increment: lessons-counter;
+  content: counter(lessons-counter) ".";
+  margin-right: 0.75rem;
+  font-weight: 800;
+  --tw-text-opacity: 1;
+  color: rgb(31 112 234 / var(--tw-text-opacity));
+}
+
+.dark ol.learn-list li::before {
+  --tw-text-opacity: 1;
+  color: rgb(59 146 246 / var(--tw-text-opacity));
 }
 
 .dark .dark\:bg-mariner-900 {

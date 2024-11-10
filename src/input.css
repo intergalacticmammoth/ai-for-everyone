@@ -180,3 +180,18 @@ button {
   decoration-2
   hover:text-neutral-700 dark:hover:text-neutral-400;
 }
+
+ol.learn-list:first-of-type {
+  counter-reset: lessons-counter;
+}
+
+ol.learn-list li {
+  list-style-type: none;
+}
+
+ol.learn-list li::before {
+  counter-increment: lessons-counter;
+  content: counter(lessons-counter) ".";
+  font-weight: 600;
+  @apply mr-3 text-mariner-600 dark:text-mariner-500 font-extrabold;
+}
