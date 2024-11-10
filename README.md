@@ -7,7 +7,7 @@
   <br>
 </h1>
 
-<h4 align="center">A practical guide for making AI useful in your daily life: real-world problems, tasks, or just fun</h4>
+<h4 align="center">A practical guide for making AI useful in daily life: real-world problems, tasks, or just for fun.</h4>
 
 <p align="center">
   <img src="https://img.shields.io/github/downloads/intergalacticmammoth/ai-for-everyone/total"
