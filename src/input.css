@@ -111,6 +111,7 @@ ol li {
 
 a {
   @apply underline
+    underline-offset-[3px]
     text-mariner-600 hover:text-mariner-900
     dark:text-mariner-500 dark:hover:text-mariner-400;
 }
