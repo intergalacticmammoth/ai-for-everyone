@@ -60,7 +60,9 @@ You can download the latest version of the ebook at [aristot.io/ai4e](https://ar
 
 ## License
 
-[Creative Commons BY 4.0](https://creativecommons.org/licenses/by/4.0/). You are free to share, adapt, and use this work for any purpose, even commercially, as long as you give [proper attribution](https://wiki.creativecommons.org/wiki/Recommended_practices_for_attribution).
+Book: [Creative Commons BY 4.0](https://creativecommons.org/licenses/by/4.0/). You are free to share, adapt, and use this work for any purpose, even commercially, as long as you give [proper attribution](https://wiki.creativecommons.org/wiki/Recommended_practices_for_attribution).
+
+Site: [MIT](./LICENSE).
 
 ---
 
