@@ -1,13 +1,13 @@
 
 <h1 align="center">
   <br>
-  <a href="./android-chrome-512x512.png" alt="AI For Everyone Icon" width="200"></a>
+  <img src="./android-chrome-512x512.png" alt="AI For Everyone Icon" width="200"></img>
   <br>
   AI for Everyone
   <br>
 </h1>
 
-<h4 align="center">A practical guide for making AI useful in your daily life: solve real-world problems, simplify tasks, or just have fun</h4>
+<h4 align="center">A practical guide for making AI useful in your daily life: real-world problems, tasks, or just fun</h4>
 
 <p align="center">
   <img src="https://img.shields.io/github/downloads/intergalacticmammoth/ai-for-everyone/total"
