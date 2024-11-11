@@ -822,6 +822,10 @@ video {
   text-decoration-color: #f9a8d4;
 }
 
+.decoration-green-300 {
+  text-decoration-color: #86efac;
+}
+
 .decoration-3 {
   text-decoration-thickness: 3px;
 }
@@ -1205,6 +1209,18 @@ ol.learn-list li::before {
 
 .dark .dark\:decoration-pink-500 {
   text-decoration-color: #ec4899;
+}
+
+.dark .dark\:decoration-pink-400 {
+  text-decoration-color: #f472b6;
+}
+
+.dark .dark\:decoration-pink-300 {
+  text-decoration-color: #f9a8d4;
+}
+
+.dark .dark\:decoration-green-300 {
+  text-decoration-color: #86efac;
 }
 
 .dark .dark\:hover\:text-mariner-300:hover {
