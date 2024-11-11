@@ -646,12 +646,16 @@ video {
   max-width: 42rem;
 }
 
-.max-w-screen-lg {
-  max-width: 1024px;
+.max-w-screen-md {
+  max-width: 768px;
 }
 
 .max-w-lg {
   max-width: 32rem;
+}
+
+.max-w-md {
+  max-width: 28rem;
 }
 
 @keyframes float {

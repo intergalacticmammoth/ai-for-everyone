@@ -50,6 +50,8 @@ You can download the latest version of the ebook at [aristot.io/ai4e](https://ar
 
 ## Support
 
+The book is free, but if you want to support the project, you can do it via Stripe and Paypal ❤️.
+
 <a href="https://donate.stripe.com/00g2ae107416544147" target="_blank"><img src="https://img.shields.io/badge/Stripe-5469d4?style=for-the-badge&logo=stripe&logoColor=ffffff" alt="Stripe" width="160"></a>
 
 <p>Or</p>
