@@ -94,7 +94,7 @@ p {
 }
 
 strong {
-  @apply font-semibold;
+  @apply font-medium;
 }
 
 sm {
@@ -153,7 +153,7 @@ button {
     no-underline
     rounded-sm
     font-sans
-    font-semibold
+    font-medium
     text-white
     hover:text-white
     dark:text-white
@@ -167,7 +167,7 @@ button {
 }
 
 .quote-giver {
-  @apply m-0 mb-2 p-0 font-semibold font-sans;
+  @apply m-0 mb-2 p-0 font-medium font-sans;
 }
 
 .quote-giver-job {
@@ -193,5 +193,6 @@ ol.learn-list li::before {
   counter-increment: lessons-counter;
   content: counter(lessons-counter) ".";
   font-weight: 600;
-  @apply mr-3 text-mariner-600 dark:text-mariner-500 font-extrabold;
+  @apply font-handwritten text-2xl mr-3 text-mariner-600 dark:text-mariner-500 font-bold;
+  text-shadow: rgb(175, 238, 191) 2px 1.25px;
 }

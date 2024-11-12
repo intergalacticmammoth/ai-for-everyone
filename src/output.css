@@ -630,8 +630,8 @@ video {
   width: 75%;
 }
 
-.w-48 {
-  width: 12rem;
+.w-52 {
+  width: 13rem;
 }
 
 .w-5 {
@@ -775,8 +775,8 @@ video {
   line-height: 1.75rem;
 }
 
-.font-semibold {
-  font-weight: 600;
+.font-medium {
+  font-weight: 500;
 }
 
 .font-light {
@@ -816,10 +816,6 @@ video {
 
 .decoration-cyan-300 {
   text-decoration-color: #67e8f9;
-}
-
-.decoration-pink-300 {
-  text-decoration-color: #f9a8d4;
 }
 
 .decoration-green-300 {
@@ -979,7 +975,7 @@ p {
 }
 
 strong {
-  font-weight: 600;
+  font-weight: 500;
 }
 
 sm {
@@ -1069,7 +1065,7 @@ button {
   padding-right: 1.25rem;
   text-align: center;
   font-family: Outfit, Open Sans, open sans, ui-sans-serif, sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
   text-decoration-line: none;
@@ -1125,7 +1121,7 @@ button {
   margin-bottom: 0.5rem;
   padding: 0px;
   font-family: Outfit, Open Sans, open sans, ui-sans-serif, sans-serif;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .quote-giver-job {
@@ -1173,7 +1169,10 @@ ol.learn-list li::before {
   counter-increment: lessons-counter;
   content: counter(lessons-counter) ".";
   margin-right: 0.75rem;
-  font-weight: 800;
+  font-family: Covered By Your Grace, Comic Sans MS, cusrive;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 700;
   --tw-text-opacity: 1;
   color: rgb(31 112 234 / var(--tw-text-opacity));
 }
@@ -1181,6 +1180,10 @@ ol.learn-list li::before {
 .dark ol.learn-list li::before {
   --tw-text-opacity: 1;
   color: rgb(59 146 246 / var(--tw-text-opacity));
+}
+
+ol.learn-list li::before {
+  text-shadow: rgb(175, 238, 191) 2px 1.25px;
 }
 
 .dark .dark\:bg-mariner-900 {
@@ -1205,18 +1208,6 @@ ol.learn-list li::before {
 
 .dark .dark\:decoration-cyan-300 {
   text-decoration-color: #67e8f9;
-}
-
-.dark .dark\:decoration-pink-500 {
-  text-decoration-color: #ec4899;
-}
-
-.dark .dark\:decoration-pink-400 {
-  text-decoration-color: #f472b6;
-}
-
-.dark .dark\:decoration-pink-300 {
-  text-decoration-color: #f9a8d4;
 }
 
 .dark .dark\:decoration-green-300 {
